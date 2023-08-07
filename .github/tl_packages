@@ -1,0 +1,34 @@
+# The test framework itself
+l3build
+#
+# Required to build formats
+latex-bin
+tex
+xetex
+#
+# Assuming a 'basic' font set up, metafont is required to avoid
+# warnings with some packages and errors with others
+metafont
+mfware
+# Dependencies for gitinfo2
+eso-pic
+etoolbox
+kvoptions
+xstring
+# Dependencies for tests and typesetting
+babel-english
+datetime2
+datetime2-english
+ec
+enumitem
+fontspec
+hyperref
+inconsolata
+infwarerr
+memoir
+pdftexcmds
+tracklang
+tex-gyre
+textcase
+tools
+xkeyval
