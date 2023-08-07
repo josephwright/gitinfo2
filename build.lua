@@ -9,6 +9,5 @@ module = "gitinfo2"
   demofiles    = {"gitinfotest.tex"}
   readmefiles  = {"README"}
   typesetexe   = "lualatex"
-  typesetexe   = "xelatex"
   packtdszip   = true
   typesetopts  = "-interaction=batchmode"
