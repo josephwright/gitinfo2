@@ -1,4 +1,3 @@
-#!/usr/bin/env texlua
 -- Build script for gitinfo2
 module = "gitinfo2"
   sourcefiles  = {"*.sty"}
@@ -13,5 +12,3 @@ module = "gitinfo2"
   typesetexe   = "xelatex"
   packtdszip   = true
   typesetopts  = "-interaction=batchmode"
-kpse.set_program_name("kpsewhich")
-dofile(kpse.lookup("l3build.lua"))
