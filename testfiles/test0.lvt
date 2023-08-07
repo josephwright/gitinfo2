@@ -7,8 +7,6 @@
 \usepackage{gitinfo2}
 \begin{document}
 \START
-\AUTHOR{Brent Longborough}
-\CLASS[]{gitinfo2,develop}
 \TEST{Basic tags}{
     \TYPE {\gitReferences}
     \TYPE {!\gitVtag!}
@@ -25,11 +23,4 @@
     \TYPE {\gitRoff}
     \TYPE {\gitCommitterEmail}
     }
-\TEST{Mark tags}{
-    \show\gitMark
-    \setbox0=\hbox{\gitMark}
-    \showbox0
-    }
-\end{document}
 \END
-% \renewcommand{\gitMark}{Branch: \gitBranch\,@\,\gitAbbrevHash{} \textbullet{} Release:\gitReln{} (\gitAuthorDate)\git@tagmark}
