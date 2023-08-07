@@ -10,4 +10,3 @@ module = "gitinfo2"
   readmefiles  = {"README"}
   typesetexe   = "lualatex"
   packtdszip   = true
-  typesetopts  = "-interaction=batchmode"
