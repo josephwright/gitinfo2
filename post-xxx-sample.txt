@@ -1,9 +1,29 @@
 #!/bin/sh
-# Copyright 2015 Brent Longborough
-# Part of gitinfo2 package Version 2
-# Release 2.0.7 2015-11-22
-# Please read gitinfo2.pdf for licencing and other details
-# -----------------------------------------------------
+#
+# File: post-xxx-sample.txt Copyright (C) 2015 Brent Longborough
+#                                         2023 Joseph Wright, The LaTeX Project
+#
+# It may be distributed and/or modified under the conditions of the
+# LaTeX Project Public License (LPPL), either version 1.3c of this
+# license or (at your option) any later version.  The latest version
+# of this license is in the file
+#
+#    https://www.latex-project.org/lppl.txt
+#
+# This file is part of the "gitinfo2 bundle" (The Work in LPPL)
+# and all files in that bundle must be distributed together.
+#
+# This work is "maintained" (as per LPPL maintenance status) by
+#  Joseph Wright, The LaTeX Project.
+#
+# This work consists of the files gitinfo2.sty
+#                                 gitexinfo.sty,
+#                                 gitinfo2.tex,
+#                                 gitinfo2test.tex,
+#                                 gitHeadLocal.gin and
+#                                 post-xxx-sample.txt,
+#           and the derived file  gitinfo2.pdf.
+#
 # Post-{commit,checkout,merge} hook for the gitinfo2 package
 #
 # Get the first tag found in the history from the current HEAD
