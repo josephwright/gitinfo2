@@ -1,15 +1,20 @@
-    The `gitinfo2' package allows version control metadata to be
-incorporated into LaTeX documents; the metadata is obtained from the
-git distributed version control system.
-    For `memoir' users, the package provides additional page styles
-(headers and footers) with selected metadata.
+# `gitinfo2` - Git revision information
 
-    gitinfo2 is licenced under the LPPL. For more details,
-please see the accompanying manual: gitinfo2.pdf.
+## Description
 
-Change History
-~~~~~~~~~~~~~~
+The `gitinfo2` package allows version control metadata to be incorporated into
+LaTeX documents; the metadata is obtained from the Git distributed version
+control system.
 
-Current Release: 2.0.7 2015-11-22
+For `memoir` users, the package provides additional page styles (headers and
+footers) with selected metadata.
 
-Please see gitinfo2.pdf in the package documentation directory
+## Author
+
+This package was originally written by Brent Longborough. It is now maintained
+by Joseph Wright: joseph.wright@morningstar2.co.uk
+
+
+## License
+
+Released under the LaTeX Project Public License v1.3c or later. See http://www.latex-project.org/lppl.txt
